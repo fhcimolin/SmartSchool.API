@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xwBtNNkGZ8fHrQuQBT4Bzzl7siBLQtAgpFBKIw+yDjRCrTFJekvcPeMNX5hDjM2q2K80a43MpfCgnKluLW1tVg==",
+  "success": true,
+  "projectFilePath": "C:\\Prog\\SmartSchoolFl\\SmartSchoolFl\\SmartSchool.API\\SmartSchool.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}

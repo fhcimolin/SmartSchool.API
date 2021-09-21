@@ -1182,21 +1182,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flavio.simolin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Prog\\SmartSchoolFl\\SmartSchoolFl\\SmartSchool.API\\SmartSchool.API.csproj",
+      "projectUniqueName": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
       "projectName": "SmartSchool.API",
-      "projectPath": "c:\\Prog\\SmartSchoolFl\\SmartSchoolFl\\SmartSchool.API\\SmartSchool.API.csproj",
+      "projectPath": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
       "packagesPath": "C:\\Users\\flavio.simolin\\.nuget\\packages\\",
-      "outputPath": "c:\\Prog\\SmartSchoolFl\\SmartSchoolFl\\SmartSchool.API\\obj\\",
+      "outputPath": "C:\\Prog\\SmartSchool.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\flavio.simolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1251,16 +1247,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.17, 3.1.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1269,7 +1255,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

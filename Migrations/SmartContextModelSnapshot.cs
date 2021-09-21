@@ -33,6 +33,29 @@ namespace SmartSchool.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Alunos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nome = "Flavio",
+                            Sobrenome = "Cimolin",
+                            Telefone = "91827398"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nome = "Nadir",
+                            Sobrenome = "Ridan",
+                            Telefone = "8937492"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nome = "Zenildo",
+                            Sobrenome = "Odlinez",
+                            Telefone = "111723726"
+                        });
                 });
 
             modelBuilder.Entity("SmartSchool.API.Models.AlunoDisciplina", b =>
@@ -48,6 +71,33 @@ namespace SmartSchool.API.Migrations
                     b.HasIndex("DisciplinaId");
 
                     b.ToTable("AlunosDisciplinas");
+
+                    b.HasData(
+                        new
+                        {
+                            AlunoId = 1,
+                            DisciplinaId = 1
+                        },
+                        new
+                        {
+                            AlunoId = 1,
+                            DisciplinaId = 2
+                        },
+                        new
+                        {
+                            AlunoId = 2,
+                            DisciplinaId = 1
+                        },
+                        new
+                        {
+                            AlunoId = 3,
+                            DisciplinaId = 1
+                        },
+                        new
+                        {
+                            AlunoId = 3,
+                            DisciplinaId = 2
+                        });
                 });
 
             modelBuilder.Entity("SmartSchool.API.Models.Disciplina", b =>
@@ -67,6 +117,20 @@ namespace SmartSchool.API.Migrations
                     b.HasIndex("ProfessorId");
 
                     b.ToTable("Disciplinas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nome = "Matemática",
+                            ProfessorId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nome = "Português",
+                            ProfessorId = 4
+                        });
                 });
 
             modelBuilder.Entity("SmartSchool.API.Models.Professor", b =>
@@ -81,6 +145,28 @@ namespace SmartSchool.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Professores");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nome = "Lauro"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nome = "Roberto"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nome = "Ronaldo"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nome = "Rodrigo"
+                        });
                 });
 
             modelBuilder.Entity("SmartSchool.API.Models.AlunoDisciplina", b =>

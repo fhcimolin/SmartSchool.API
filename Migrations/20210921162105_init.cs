@@ -78,6 +78,76 @@ namespace SmartSchool.API.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Alunos",
+                columns: new[] { "Id", "Nome", "Sobrenome", "Telefone" },
+                values: new object[] { 1, "Flavio", "Cimolin", "91827398" });
+
+            migrationBuilder.InsertData(
+                table: "Alunos",
+                columns: new[] { "Id", "Nome", "Sobrenome", "Telefone" },
+                values: new object[] { 2, "Nadir", "Ridan", "8937492" });
+
+            migrationBuilder.InsertData(
+                table: "Alunos",
+                columns: new[] { "Id", "Nome", "Sobrenome", "Telefone" },
+                values: new object[] { 3, "Zenildo", "Odlinez", "111723726" });
+
+            migrationBuilder.InsertData(
+                table: "Professores",
+                columns: new[] { "Id", "Nome" },
+                values: new object[] { 1, "Lauro" });
+
+            migrationBuilder.InsertData(
+                table: "Professores",
+                columns: new[] { "Id", "Nome" },
+                values: new object[] { 2, "Roberto" });
+
+            migrationBuilder.InsertData(
+                table: "Professores",
+                columns: new[] { "Id", "Nome" },
+                values: new object[] { 3, "Ronaldo" });
+
+            migrationBuilder.InsertData(
+                table: "Professores",
+                columns: new[] { "Id", "Nome" },
+                values: new object[] { 4, "Rodrigo" });
+
+            migrationBuilder.InsertData(
+                table: "Disciplinas",
+                columns: new[] { "Id", "Nome", "ProfessorId" },
+                values: new object[] { 1, "Matemática", 2 });
+
+            migrationBuilder.InsertData(
+                table: "Disciplinas",
+                columns: new[] { "Id", "Nome", "ProfessorId" },
+                values: new object[] { 2, "Português", 4 });
+
+            migrationBuilder.InsertData(
+                table: "AlunosDisciplinas",
+                columns: new[] { "AlunoId", "DisciplinaId" },
+                values: new object[] { 1, 1 });
+
+            migrationBuilder.InsertData(
+                table: "AlunosDisciplinas",
+                columns: new[] { "AlunoId", "DisciplinaId" },
+                values: new object[] { 2, 1 });
+
+            migrationBuilder.InsertData(
+                table: "AlunosDisciplinas",
+                columns: new[] { "AlunoId", "DisciplinaId" },
+                values: new object[] { 3, 1 });
+
+            migrationBuilder.InsertData(
+                table: "AlunosDisciplinas",
+                columns: new[] { "AlunoId", "DisciplinaId" },
+                values: new object[] { 1, 2 });
+
+            migrationBuilder.InsertData(
+                table: "AlunosDisciplinas",
+                columns: new[] { "AlunoId", "DisciplinaId" },
+                values: new object[] { 3, 2 });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AlunosDisciplinas_DisciplinaId",
                 table: "AlunosDisciplinas",

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using SmartSchool.API.Data;
 using SmartSchool.API.Models;
 
 namespace SmartSchool.API.Controllers
@@ -9,46 +10,23 @@ namespace SmartSchool.API.Controllers
     [Route("api/[controller]")]
     public class AlunoController : ControllerBase
     {
-        public List<Aluno> Alunos = new List<Aluno>()
-        {
-            new Aluno()
-            {
-                Id = 1,
-                Nome = "Flávio",
-                Sobrenome = "Cimolin",
-                Telefone = "48996505555"
-            },
-            new Aluno()
-            {
-                Id = 2,
-                Nome = "Marta",
-                Sobrenome = "Rocha Maria",
-                Telefone = "48953873853"
-            },
-            new Aluno()
-            {
-                Id = 3,
-                Nome = "Laura",
-                Sobrenome = "Maria",
-                Telefone = "48953489395"
-            }
-        };
+        private readonly SmartContext _context;
 
-        public AlunoController()
+        public AlunoController(SmartContext context)
         {
-            
+            _context = context;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(Alunos);
+            return Ok(_context.Alunos);
         }
 
         [HttpGet("byId")]
         public IActionResult GetById(int id)
         {
-            var aluno = Alunos.FirstOrDefault(x => x.Id.Equals(id));
+            var aluno = _context.Alunos.FirstOrDefault(x => x.Id.Equals(id));
 
             if(aluno == null)
             {

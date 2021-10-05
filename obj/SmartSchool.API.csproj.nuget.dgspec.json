@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj": {}
+    "c:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj": {}
   },
   "projects": {
-    "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj": {
+    "c:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
+        "projectUniqueName": "c:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
         "projectName": "SmartSchool.API",
-        "projectPath": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
+        "projectPath": "c:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
         "packagesPath": "C:\\Users\\flavio.simolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Prog\\SmartSchool.API\\obj\\",
+        "outputPath": "c:\\Prog\\SmartSchool.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\flavio.simolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,18 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.9, )"

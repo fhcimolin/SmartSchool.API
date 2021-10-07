@@ -12,9 +12,12 @@ namespace SmartSchool.API.Controllers
     public class AlunoController : ControllerBase
     {
         private readonly SmartContext _context;
+        public readonly IRepository _repo;
 
-        public AlunoController(SmartContext context)
+        public AlunoController(SmartContext context,
+                               IRepository repo)
         {
+            _repo = repo;
             _context = context;
         }
 
@@ -29,7 +32,7 @@ namespace SmartSchool.API.Controllers
         {
             var aluno = _context.Alunos.FirstOrDefault(x => x.Id.Equals(id));
 
-            if(aluno == null)
+            if (aluno == null)
             {
                 return BadRequest("O aluno não foi encontrado.");
             }
@@ -40,8 +43,8 @@ namespace SmartSchool.API.Controllers
         [HttpPost]
         public IActionResult Post(Aluno aluno)
         {
-            _context.Add(aluno);
-            _context.SaveChanges();
+            _repo.Add(aluno);
+            _repo.SaveChanges();
 
             return Ok(aluno);
         }
@@ -50,8 +53,8 @@ namespace SmartSchool.API.Controllers
         public IActionResult Put(int id, Aluno aluno)
         {
             var alu = _context.Alunos.AsNoTracking().FirstOrDefault(x => x.Id == id);
-            
-            if(alu == null)
+
+            if (alu == null)
             {
                 return BadRequest("Aluno não encontrado.");
             }
@@ -67,7 +70,7 @@ namespace SmartSchool.API.Controllers
         {
             var _aluno = _context.Alunos.FirstOrDefault(x => x.Id == id);
 
-            if(_aluno == null)
+            if (_aluno == null)
             {
                 return BadRequest("Aluno não encontrado.");
             }
@@ -83,7 +86,7 @@ namespace SmartSchool.API.Controllers
         {
             var aluno = _context.Alunos.FirstOrDefault(x => x.Id == id);
 
-            if(aluno == null)
+            if (aluno == null)
             {
                 return BadRequest("Aluno não encontrado.");
             }

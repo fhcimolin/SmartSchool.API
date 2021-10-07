@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ik4E8LqyN1c2stH9stzDPRw5ve7AsNZRHjLCUFj2LOkV+/jSopVPl7WdBGegoBP9DgjZ4xdg3ccWvJf6k6iOjQ==",
+  "dgSpecHash": "xZGFFQ9dwkbYakedLjyqc0KTL07CKFrOgZpWp6T4xmXslxWTP8oAkbUAh0c3enFq7PgifVDUHb0+6K2YEgbKIw==",
   "success": true,
-  "projectFilePath": "c:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
+  "projectFilePath": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\hangfire.aspnetcore\\1.7.0\\hangfire.aspnetcore.1.7.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\hangfire.core\\1.7.0\\hangfire.core.1.7.0.nupkg.sha512",

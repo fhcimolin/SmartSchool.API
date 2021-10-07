@@ -30,6 +30,8 @@ namespace SmartSchool.API
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
             );
 
+            services.AddScoped<IRepository, Repository>();
+
             services.AddControllers();
         }
 

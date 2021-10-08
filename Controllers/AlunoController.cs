@@ -44,9 +44,13 @@ namespace SmartSchool.API.Controllers
         public IActionResult Post(Aluno aluno)
         {
             _repo.Add(aluno);
-            _repo.SaveChanges();
+            
+            if(_repo.SaveChanges())
+            {
+                return Ok(aluno);
+            }
 
-            return Ok(aluno);
+            return BadRequest("Aluno não cadastrado");
         }
 
         [HttpPut("{id}")]
@@ -59,26 +63,34 @@ namespace SmartSchool.API.Controllers
                 return BadRequest("Aluno não encontrado.");
             }
 
-            _context.Update(aluno);
-            _context.SaveChanges();
+            _repo.Update(aluno);
+            
+            if(_repo.SaveChanges())
+            {
+                return Ok(aluno);
+            }
 
-            return Ok(aluno);
+            return BadRequest("Aluno não atualizado.");
         }
 
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, Aluno aluno)
         {
-            var _aluno = _context.Alunos.FirstOrDefault(x => x.Id == id);
+            var _aluno = _context.Alunos.AsNoTracking().FirstOrDefault(x => x.Id == id);
 
             if (_aluno == null)
             {
                 return BadRequest("Aluno não encontrado.");
             }
 
-            _context.Update(aluno);
-            _context.SaveChanges();
+            _repo.Update(aluno);
+            
+            if(_repo.SaveChanges())
+            {
+                return Ok(aluno);
+            }
 
-            return Ok(aluno);
+            return BadRequest("Aluno não atualizado.");
         }
 
         [HttpDelete("{id}")]
@@ -91,10 +103,14 @@ namespace SmartSchool.API.Controllers
                 return BadRequest("Aluno não encontrado.");
             }
 
-            _context.Remove(aluno);
-            _context.SaveChanges();
+            _repo.Remove(aluno);
+            
+            if(_repo.SaveChanges())
+            {
+                return Ok(aluno);
+            }
 
-            return Ok();
+            return BadRequest("Aluno não removido.");
         }
     }
 }

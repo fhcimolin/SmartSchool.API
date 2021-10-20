@@ -30,7 +30,7 @@ namespace SmartSchool.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("byId")]
+        [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             var professor = _repo.GetProfessorById(id);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xZGFFQ9dwkbYakedLjyqc0KTL07CKFrOgZpWp6T4xmXslxWTP8oAkbUAh0c3enFq7PgifVDUHb0+6K2YEgbKIw==",
+  "dgSpecHash": "VFJj9RGrVQbJg5hm7Wt/80SUlnjWHn6nXfSAA87EoiyFOrmVTUYwdM3a3hBxcCbhP405haVttXt1Ltk9wamL3g==",
   "success": true,
   "projectFilePath": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,8 @@
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.0.0\\microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.0.0\\microsoft.aspnetcore.http.extensions.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.0.0\\microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.0.0\\microsoft.aspnetcore.webutilities.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.9\\microsoft.data.sqlite.core.5.0.9.nupkg.sha512",
@@ -45,7 +47,8 @@
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.net.http.headers\\2.0.0\\microsoft.net.http.headers.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
-    "C:\\Users\\flavio.simolin\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

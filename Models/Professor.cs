@@ -10,7 +10,7 @@ namespace SmartSchool.API.Models
 
         }
 
-        public Professor(int id, string nome, int registro, string sobrenome)
+        public Professor(int id, int registro, string nome, string sobrenome)
         {
             this.Id = id;
             this.Registro = registro;

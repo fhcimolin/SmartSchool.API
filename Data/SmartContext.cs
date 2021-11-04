@@ -32,14 +32,15 @@ namespace SmartSchool.API.Data
                     new Professor(1, 1, "Lauro", "Oliveira"),
                     new Professor(2, 2, "Roberto", "Soares"),
                     new Professor(3, 3, "Ronaldo", "Marconi"),
-                    new Professor(4, 4, "Rodrigo", "Carvalho")
+                    new Professor(4, 4, "Rodrigo", "Carvalho"),
+                    new Professor(5, 5, "Joel", "Carvalho")
                 });
 
             builder.Entity<Aluno>()
                 .HasData(new List<Aluno>{
                     new Aluno(1, "Flavio", "Cimolin", "91827398", 81745, DateTime.Parse("03/01/1996")),
                     new Aluno(2, "Nadir", "Ridan", "8937492", 10000, DateTime.Parse("06/03/1980")),
-                    new Aluno(3, "Zenildo", "Odlinez", "111723726", 54654, DateTime.Parse("01/28/1994"))
+                    new Aluno(3, "Zenildo", "Odlinez", "111723726", 54654, DateTime.Parse("28/10/1994"))
                 });
 
             builder.Entity<Curso>()

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VFJj9RGrVQbJg5hm7Wt/80SUlnjWHn6nXfSAA87EoiyFOrmVTUYwdM3a3hBxcCbhP405haVttXt1Ltk9wamL3g==",
+  "dgSpecHash": "rTqYRdfDEbnezyOTeF7hp88YJH1yrNozGnFK98tib2j+oQIFv+bZ1vECHyO0kUyb1oDu6/rz9iRSEWnKGKZbLw==",
   "success": true,
   "projectFilePath": "C:\\Prog\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\hangfire.aspnetcore\\1.7.0\\hangfire.aspnetcore.1.7.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\hangfire.core\\1.7.0\\hangfire.core.1.7.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\hangfire.sqlserver\\1.7.0\\hangfire.sqlserver.1.7.0.nupkg.sha512",
@@ -46,6 +48,7 @@
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.net.http.headers\\2.0.0\\microsoft.net.http.headers.2.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
@@ -62,13 +65,21 @@
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.data.sqlclient\\4.4.0\\system.data.sqlclient.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.security.cryptography.xml\\4.4.0\\system.security.cryptography.xml.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
-    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\flavio.simolin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartSchool.API.Data;
 using SmartSchool.API.Dtos;
+using SmartSchool.API.Helpers;
 using SmartSchool.API.Models;
 
 namespace SmartSchool.API.Controllers
@@ -24,9 +26,9 @@ namespace SmartSchool.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get([FromQuery]PageParams pageParams)
         {
-            var alunos = _repo.GetAllAlunos(includeProfessor: true);
+            var alunos = await _repo.GetAllAlunosAsync(pageParams, includeProfessor: false);
 
             return Ok(_mapper.Map<IEnumerable<AlunoDto>>(alunos));
         }

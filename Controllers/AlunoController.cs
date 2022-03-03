@@ -30,7 +30,11 @@ namespace SmartSchool.API.Controllers
         {
             var alunos = await _repo.GetAllAlunosAsync(pageParams, includeProfessor: false);
 
-            return Ok(_mapper.Map<IEnumerable<AlunoDto>>(alunos));
+            var alunosResult = _mapper.Map<IEnumerable<AlunoDto>>(alunos);
+
+            Response.AddPagination(alunos.CurrentPage, alunos.PageSize, alunos.TotalCount, alunos.TotalPages);
+
+            return Ok(alunosResult);
         }
 
         [HttpGet("{id}")]

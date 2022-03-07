@@ -1,8 +1,2 @@
-bin/Debug/netcoreapp3.1/SmartSchool.API.dll
-bin/Debug/netcoreapp3.1/SmartSchool.API.pdb
-obj/Debug/netcoreapp3.1/SmartSchool.API.dll
-obj/Debug/netcoreapp3.1/SmartSchool.API.pdb
-bin/Debug/netcoreapp3.1/SmartSchool.API.dll
-bin/Debug/netcoreapp3.1/SmartSchool.API.pdb
-obj/Debug/netcoreapp3.1/SmartSchool.API.dll
-obj/Debug/netcoreapp3.1/SmartSchool.API.pdb
+obj/
+bin/

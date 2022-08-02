@@ -38,9 +38,9 @@ namespace SmartSchool.API.Data
 
             builder.Entity<Aluno>()
                 .HasData(new List<Aluno>{
-                    new Aluno(1, "Flavio", "Cimolin", "91827398", 81745, DateTime.Parse("03/01/1996")),
-                    new Aluno(2, "Nadir", "Ridan", "8937492", 10000, DateTime.Parse("06/03/1980")),
-                    new Aluno(3, "Zenildo", "Odlinez", "111723726", 54654, DateTime.Parse("28/10/1994"))
+                    new Aluno(1, "Flavio", "Cimolin", "91827398", 81745, DateTime.Parse("1990-01-03")),
+                    new Aluno(2, "Nadir", "Ridan", "8937492", 10000, DateTime.Parse("1980-02-05")),
+                    new Aluno(3, "Zenildo", "Odlinez", "111723726", 54654, DateTime.Parse("2000-06-05"))
                 });
 
             builder.Entity<Curso>()
